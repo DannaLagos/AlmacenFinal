@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/*!
+* Start Bootstrap - Shop Homepage v5.0.6 (https://startbootstrap.com/template/shop-homepage)
+* Copyright 2013-2023 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
+*/
+/*!
+ * Bootstrap  v5.2.3 (https://getbootstrap.com/)
+ * Copyright 2011-2022 The Bootstrap Authors
+ * Copyright 2011-2022 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+body {
+    background-image: url('https://protectclothes166.com/wp-content/uploads/2020/07/fondo_tienda_1920.jpg');
+    background-size: cover; /* Hace que la imagen ocupe toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* La imagen de fondo se queda fija al hacer scroll */
+}
+
+.error-box {
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la tabla dentro del formulario */
+.form-table {
+    background-color: white; /* Fondo blanco */
+    border: 2px solid #000; /* Borde alrededor de la tabla */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espacio interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar la tabla */
+    width: 100%; /* Asegura que la tabla ocupe el espacio disponible */
+    max-width: 600px; /* Limita el tamaño máximo de la tabla */
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+}
+
+/* Estilos para la tabla del formulario */
+.form-table {
+    width: 100%;
+    max-width: 350px; /* Ajustar ancho máximo */
+    margin: 50px auto; /* Centrando la tabla y añadiendo margen */
+    border-collapse: collapse;
+}
+
+.form-table td {
+    padding: 10px;
+    text-align: left; /* Asegurar alineación a la izquierda para texto */
+}
+
+/* Estilos para los labels del formulario */
+.form-table label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilos para los campos de entrada del formulario */
+.form-table input[type="text"],
+.form-table input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Estilos generales para los botones */
+.form-table .btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Añadir espacio superior */
+}
+
+/* Estilos específicos para los botones con la clase btn-danger */
+.btn-danger {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c;
+}
+
+/* Estilos para el checkbox */
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Añadir margen inferior */
+}
+
+.form-check input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Alineación de los botones en la misma fila */
+.buttons-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.buttons-row td {
+    width: 50%;
+    text-align: center; /* Centrar botones */
+}
+
+
+
